@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "algorithm"
+version = "0.1.0"
+description = "Many kind of algorithm which I studied"
+authors = ["HeewonKwak <hewo1217@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "3.8.4"
+beautifulsoup4 = "4.11.2"
+GitPython = "3.1.31"
+requests = "2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
